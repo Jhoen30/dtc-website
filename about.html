@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> Danao Technological College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+        
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Bohol.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+          <h1>About Us</h1>
+       
+    </section>
+    
+    <!-----about us content---->
+    
+    <section class="about-us">
+    
+        <div class="row">
+            <div class="about-col">
+                <h1>The First Institute in Danao, Bohol</h1>
+                <p>In this section you can see on the right a Google map<br> as your reference to locate our institution.</p> 
+            </div>
+            <div class="about-col">
+                <img src="dtcmap.jpg">
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    <!-----footer------>
+    
+    <section class="footer">
+        <h4>You Can Follow Us!</h4>
+        <p>you can follow our updates and actvities through this following sites.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i> by Mr.CJ</p>
+    
+    
+    
+    </section>
+    
+    
+    
+    
+    
+    
+
+    
+    <!------JavaScript for Toggle Menu------>
+    <script>
+     var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+ </body>
+</html>

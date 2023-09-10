@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> Danao Technological College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+        
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Bohol.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+          <h1>Our Courses</h1>
+       
+    </section>
+    
+    <!-----Courses Offer content---->
+    
+       <section class="course">
+        <p>Since this Institution has just started, fewerbcourses are offered to students<br> to continue their tertiary education. This institute is also known for being<br> budget friendly for those who couldn't afford to go to university schools.</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Bachelor of Science in Information System</h3>
+                <p>Bachelor of Science in Information System (BSIS), is a four year degree program that deals with the design and implementation of solutions that integrate information technology with business processes. The program teaches students all about hardware and software applications and how they can use them to collect, filter, process, create and distribute data.</p>
+            </div>
+        
+        
+            <div class="course-col">
+                <h3>Bachelor of Science in Tourism Management</h3>
+                <p>Bachelor of Science in Tourism Management or BSTM (as it is popularly known) is a program that prepares students for a career in the tourism and hospitality industry. The degree involves everything from the said industry (tourism and hospitality), such as tour planning, development, implementation, and control management efforts.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+        
+            <div class="course-col">
+                <h3>Bachelor of Technical-Vocational Education</h3>
+                <p>The Bachelor in Technical-Vocational Teacher Education (BTVTEd) program is a four-year teacher education program designed to equip future teachers with adequate and relevant competencies in the area of technical and vocational teacher education. It also aims to develop highly competent and motivated teachers in Technology and Livelihood Education in their area of specialization. Furthermore, the program aims to impart knowledge, skills, attitudes, values and experiences that will provide prospective Grade 9-10 TLE teachers, Senior High School Tech-Voc Livelihood Track teachers, TVET Trainers/Instructors, and higher education institutions faculty members with the necessary competencies essential for effective teaching.</p>
+            </div>
+        
+            <div class="course-col">
+                <h3>Bachelor of Science in Criminology</h3>
+                <p>The Criminal Justice Education Program aspires to produce criminologists that would reveal professionally service-oriented, dynamic, and competent individuals that would effectively respond to the call of public service.</p>
+            </div>
+            
+        </div>
+
+    
+    
+    </section>
+    
+    
+    <!-----testimonials----->
+
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+            <p>In this section you can see some of our students' comments on our institution.</p>
+    
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="corona.jpg">
+                    <div>
+                        <p>I'm one of the pioneering students of this institution<br>and I love the way our teacher teaches us.</p>
+                        <h3>Michael</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                
+                 <div class="testimonial-col">
+                    <img src="anosa.jpg">
+                    <div>
+                        <p>Besides being a budget-friendly institution, they are also <br>very passionate about teaching their students.</p>
+                        <h3>Ethel</h3>
+                           <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                
+            </div>
+    
+    </section>
+  
+    
+    
+    
+    
+    <!-----footer------>
+    
+    <section class="footer">
+        <h4>You Can Follow Us!</h4>
+        <p>you can follow our updates and actvities through this following sites.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i> by Mr.CJ</p>
+    
+    
+    
+    </section>
+    
+    
+    
+    
+    
+    
+
+    
+    <!------JavaScript for Toggle Menu------>
+    <script>
+     var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+ </body>
+</html>
